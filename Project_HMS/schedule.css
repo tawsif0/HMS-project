@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to right, rgba(219, 202, 202, 0), rgb(111, 0, 255));
+}
+
+.container{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3{
+    text-shadow: 2px 1px;
+    margin-bottom: 20px;
+}
+
+
+/* SCHEDULE DESIGN */
+.schedule__container{
+    background: linear-gradient(#ebf4f5, #b5c6e0);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+
+
+/* Reset Button */
+.deleteBtn{
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+}
+.deleteBtn a{
+    text-decoration: none;
+}
+
+.deleteBtn:hover{
+    background-color: rgb(104, 46, 179);
+    color: white;
+}
+.submitBtn{
+
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+
+}
+.submitBtn a{
+    text-decoration: none;
+}
+.submitBtn:hover{
+    background-color: rgb(158, 88, 190);
+    color: white;
+}
+
